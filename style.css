@@ -23,12 +23,20 @@ body {
 }
 .obsah {
     font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .jmeno {
     font-family: 'Montserrat', sans-serif;
 }
 
-
+.logo {
+    background-color: #b92e81;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 180px;
+}
 
 div {
     background-color: #31363b;
@@ -65,6 +73,8 @@ ul {
     border-spacing: 0;
     text-align: center;
     padding: 0.5rem;
+    width: 49%;
+    box-sizing: inherit;
 }
 .twitter {
     display: inline-block;
@@ -73,4 +83,15 @@ ul {
     border-spacing: 0;
     text-align: center;
     padding: 0.5rem;
+    width:49%;
+    box-sizing: border-box;
+}
+.portfolio:hover {
+   background-color: #e74c3c;
+}
+.facebook:hover {
+   background-color: #3b5998;
+}
+.twitter:hover {
+    background-color: #1da1f2;
 }
