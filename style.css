@@ -76,11 +76,11 @@ ul {
     width: 49%;
     box-sizing: inherit;
 }
+/* Nevím, proč mi nefunguje width: 50%, ale musí bžt 49%*/
 .twitter {
     display: inline-block;
     border-left: 2px solid #3f464d;
     margin: 0;
-    border-spacing: 0;
     text-align: center;
     padding: 0.5rem;
     width:49%;
